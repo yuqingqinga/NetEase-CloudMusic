@@ -91,4 +91,7 @@ isPlaying,playMusic] )
     - 发出事件：eventBus.emit("事件名称", 参数列表
     - 监听事件：eventBus.addListener("事件名称", 监听函数)；
     - 移除事件：eventBus.removeListener("事件名称", 监听函数)；
+### 歌词
++ 展示歌词部分也使用的是antd的message组件
++ 通过api接口获取到歌词并解析展示
 
